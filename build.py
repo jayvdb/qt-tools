@@ -10,7 +10,7 @@ import traceback
 import typing
 
 import attr
-import qt5_applications
+#import qt5_applications
 import setuptools.command.build_py
 
 
@@ -50,6 +50,7 @@ def checkpoint(name):
 
 
 def build(package_path: pathlib.Path):
+    return
     applications = [
         Application(name=name, path=qt5_applications._application_path(name))
         for name in qt5_applications._application_names()
