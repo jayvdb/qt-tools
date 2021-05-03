@@ -48,7 +48,6 @@ setuptools.setup(
     include_package_data=True,
     python_requires=">=3.5",
     install_requires=[
-        local_backend.qt_applications_requirement,
         'click~=7.0',
     ],
     entry_points={

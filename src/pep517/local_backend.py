@@ -74,7 +74,7 @@ def to_list(*dicts):
 
 
 def get_requires_for_build_wheel(config_settings=None):
-    return [*to_list(requirements), qt_applications_requirement]
+    return [*to_list(requirements)]
 
 
 def create_script_function_name(path: pathlib.Path):
